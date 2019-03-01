@@ -71,12 +71,7 @@ public class DisplaySearchList extends Application {
             final TableRow<BookSearch> bookSearchTableRow = new TableRow<>();
             final ContextMenu bookRowMenu = new ContextMenu();
             MenuItem checkOut = new MenuItem("Check Out");
-            checkOut.setOnAction(new EventHandler<ActionEvent>() {
-                @Override
-                public void handle(ActionEvent event) {
-                    handleCheckOut();
-                }
-            });
+            checkOut.setOnAction(event -> handleCheckOut());
             bookRowMenu.getItems().addAll(checkOut);
             //display context menu only for non-null rows.
             bookSearchTableRow.contextMenuProperty().bind(Bindings.when(Bindings.isNotNull(bookSearchTableRow.itemProperty()))
@@ -116,7 +111,8 @@ public class DisplaySearchList extends Application {
 
     @FXML
     private void handleFines() throws Exception{
-
+        DisplayFines displayFine = new DisplayFines();
+        displayFine.getFines();
     }
 
     public String getSelectedISBN() {
