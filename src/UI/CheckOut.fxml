@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="418.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LBMS.CheckOutController">
+   <children>
+      <JFXTextField fx:id="Borrower_ID" layoutX="70.0" layoutY="161.0" prefHeight="48.0" prefWidth="211.0" promptText="Enter Borrower_ID" />
+      <JFXButton layoutX="70.0" layoutY="234.0" onAction="#submitCheckOut" prefHeight="48.0" prefWidth="107.0" text="Submit" />
+      <JFXTextField fx:id="ISBNVal" layoutX="64.0" layoutY="104.0" prefHeight="35.0" prefWidth="211.0" promptText="Enter ISBN" />
+   </children>
+</AnchorPane>

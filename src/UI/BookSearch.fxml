@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LBMS.DisplaySearchList">
+   <children>
+      <JFXButton layoutX="90.0" layoutY="241.0" onAction="#handleSearch" prefHeight="39.0" prefWidth="127.0" text="Search" />
+      <JFXButton layoutX="231.0" layoutY="26.0" onAction="#handleBorrower" prefHeight="39.0" prefWidth="167.0" text="Add new member" />
+      <JFXTextField fx:id="searchString" layoutX="90.0" layoutY="172.0" prefHeight="47.0" prefWidth="616.0" promptText="Enter any valid combination of ISBN, Title or Author" />
+      <JFXButton layoutX="56.0" layoutY="26.0" onAction="#handleCheckIn" prefHeight="39.0" prefWidth="151.0" text="Check-in Book" />
+      <JFXButton layoutX="595.0" layoutY="26.0" onAction="#handleRefresh" prefHeight="39.0" prefWidth="137.0" ripplerFill="BLACK" text="Refresh Fines" />
+      <JFXButton layoutX="447.0" layoutY="26.0" onAction="#handleFines" prefHeight="39.0" prefWidth="112.0" text="Pay Fines" />
+   </children>
+</AnchorPane>

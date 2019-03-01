@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LBMS.CheckInController">
+   <children>
+      <JFXTextField fx:id="ISBNVal" layoutX="59.0" layoutY="142.0" promptText="Enter ISBN" />
+      <JFXButton layoutX="53.0" layoutY="257.0" onAction="#submitCheckIn" prefHeight="52.0" prefWidth="112.0" text="Submit" />
+   </children>
+</AnchorPane>

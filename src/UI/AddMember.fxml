@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id = "root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="716.0" prefWidth="910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LBMS.AddMemberController">
+   <children>
+      <JFXTextField fx:id="B_SSN" layoutX="35.0" layoutY="63.0" prefHeight="41.0" prefWidth="312.0" promptText="SSN" />
+      <JFXTextField fx:id="B_First_name" layoutX="35.0" layoutY="137.0" prefHeight="41.0" prefWidth="312.0" promptText="First Name" />
+      <JFXTextField fx:id="B_Last_name" layoutX="35.0" layoutY="216.0" prefHeight="41.0" prefWidth="312.0" promptText="Last Name" />
+      <JFXTextField fx:id="B_Street_Address" layoutX="35.0" layoutY="291.0" prefHeight="41.0" prefWidth="568.0" promptText="Street Address" />
+      <JFXTextField fx:id="B_City" layoutX="42.0" layoutY="373.0" prefHeight="41.0" prefWidth="212.0" promptText="City" />
+      <JFXTextField fx:id="B_State" layoutX="42.0" layoutY="450.0" prefHeight="35.0" prefWidth="205.0" promptText="State" />
+      <JFXTextField fx:id="B_PhoneNum" layoutX="35.0" layoutY="514.0" prefHeight="35.0" prefWidth="246.0" promptText="Phone number" />
+      <JFXButton layoutX="35.0" layoutY="609.0" onAction="#handleBdetails" prefHeight="39.0" prefWidth="103.0" text="Submit" />
+   </children>
+</AnchorPane>
